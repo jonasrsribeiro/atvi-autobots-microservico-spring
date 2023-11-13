@@ -24,6 +24,7 @@ public class AutomanagerApplication {
 
 	@Component
 	public static class Runner implements ApplicationRunner {
+		
 		@Autowired
 		public ClienteRepositorio repositorio;
 
